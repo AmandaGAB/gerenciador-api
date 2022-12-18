@@ -1,5 +1,5 @@
 class FuncionariosController < ApplicationController
-    before_action :set_cliente, only: [:show, :update, :destroy]
+    before_action :set_funcionario, only: [:show, :update, :destroy]
 
     # GET /funcionarios
     def index
@@ -8,7 +8,7 @@ class FuncionariosController < ApplicationController
       render json: @funcionarios
     end
   
-    # GET /funcionarios1
+    # GET /funcionarios/1
     def show
       render json: @funcionario
     end
@@ -26,8 +26,8 @@ class FuncionariosController < ApplicationController
   
     # PATCH/PUT /funcionarios/1
     def update
-      if @funcionario.update(cliente_params)
-        render json: @cliente
+      if @funcionario.update(funcionario_params)
+        render json: @funcionario
       else
         render json: @funcionario.errors, status: :unprocessable_entity
       end
@@ -35,7 +35,7 @@ class FuncionariosController < ApplicationController
   
     # DELETE /funcionarios/1
     def destroy
-      @cliente.destroy
+      @funcionario.destroy
     end
   
     private
@@ -46,6 +46,6 @@ class FuncionariosController < ApplicationController
   
       # Only allow a list of trusted parameters through.
       def funcionario_params
-        params.require(:cliente).permit(:nome, :cpf, :rg)
+        params.require(:funcionario).permit(:funcionario_id, :nome, :cpf, :rg)
       end
   end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_11_231527) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_18_220535) do
   create_table "clientes", force: :cascade do |t|
     t.string "nome"
     t.string "cpf"
@@ -27,4 +27,18 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_11_231527) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "manutencaos", force: :cascade do |t|
+    t.date "dataInicio"
+    t.date "dataTermino"
+    t.boolean "status"
+    t.integer "cliente_id", null: false
+    t.integer "funcionario_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["cliente_id"], name: "index_manutencaos_on_cliente_id"
+    t.index ["funcionario_id"], name: "index_manutencaos_on_funcionario_id"
+  end
+
+  add_foreign_key "manutencaos", "clientes"
+  add_foreign_key "manutencaos", "funcionarios"
 end
