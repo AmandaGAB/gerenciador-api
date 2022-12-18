@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   #get '/clientes', to: 'clientes#index'
-  resources :clientes, only: [:index]
+  resources :clientes
+  resources :funcionarios
 end
