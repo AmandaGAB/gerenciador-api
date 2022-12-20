@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/api.iml" filepath="$PROJECT_DIR$/.idea/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/concurrent-ruby-1.1.10/concurrent-ruby-1.1.10.iml" filepath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/concurrent-ruby-1.1.10/concurrent-ruby-1.1.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crass-1.0.6.iml" filepath="$PROJECT_DIR$/.idea/modules/crass-1.0.6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/debug-1.7.0.iml" filepath="$PROJECT_DIR$/.idea/modules/debug-1.7.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/irb-1.6.0.iml" filepath="$PROJECT_DIR$/.idea/modules/irb-1.6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/method_source-1.0.0.iml" filepath="$PROJECT_DIR$/.idea/modules/method_source-1.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mini_mime-1.1.2.iml" filepath="$PROJECT_DIR$/.idea/modules/mini_mime-1.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/msgpack-1.6.0.iml" filepath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/msgpack-1.6.0/msgpack-1.6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-imap-0.3.2.iml" filepath="$PROJECT_DIR$/.idea/modules/net-imap-0.3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-pop-0.1.2.iml" filepath="$PROJECT_DIR$/.idea/modules/net-pop-0.1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net-protocol-0.2.1.iml" filepath="$PROJECT_DIR$/.idea/modules/net-protocol-0.2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/nio4r-2.5.8.iml" filepath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/nio4r-2.5.8/nio4r-2.5.8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nokogiri-1.13.10-x86_64-linux.iml" filepath="$PROJECT_DIR$/.idea/modules/nokogiri-1.13.10-x86_64-linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.6.5/puma-5.6.5.iml" filepath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/puma-5.6.5/puma-5.6.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sqlite3-1.5.4-x86_64-linux.iml" filepath="$PROJECT_DIR$/.idea/modules/sqlite3-1.5.4-x86_64-linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timeout-0.3.1.iml" filepath="$PROJECT_DIR$/.idea/modules/timeout-0.3.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/websocket-driver-0.7.5.iml" filepath="$PROJECT_DIR$/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/websocket-driver-0.7.5.iml" />
+    </modules>
+  </component>
+</project>
