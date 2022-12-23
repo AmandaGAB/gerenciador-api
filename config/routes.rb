@@ -14,4 +14,8 @@ Rails.application.routes.draw do
     resources :clientes
     resources :funcionarios
   end
+  resources :equipamentos do
+    resources :clientes
+    resources :manutencoes
+  end
 end

@@ -46,6 +46,6 @@ class ManutencoesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def manutenco_params
-      params.require(:manutenco).permit(:cliente_id, :funcionario_id, :dataInicio, :dataTermino, :status)
+      params.require(:manutenco).permit(:cliente_id, :funcionario_id, :dataInicio, :dataTermino, :status, :total)
     end
 end
